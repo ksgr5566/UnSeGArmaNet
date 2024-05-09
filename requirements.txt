@@ -1,0 +1,11 @@
+numpy>=1.26.4,<2.0.0
+deeplake==3.9.0
+opencv-python-headless>=4.9.0.80,<5.0.0
+scikit-learn>=1.4.1.post1,<2.0.0
+pillow==10.2.0
+matplotlib>=3.8.4,<4.0.0
+tifffile>=2024.2.12,<2025.0.0
+scipy>=1.13.0,<2.0.0
+gdown
+transformers
+numba==0.59.1
