@@ -38,5 +38,22 @@ You can run `python main.py` with the following arguments.
 Example call:\
 `python main.py --dataset "ECSSD" --threshold 0.1 --bs False --epochs 20 --resolution 224 224 --activation "selu" --loss_type "DMON" --process "DINO" --conv_type "ARMA"`
 
+# Architecture
+![image](https://github.com/user-attachments/assets/f236346f-1fdf-4c94-9635-d81c6717a4e3)
+
+# Visualizations
+![image](https://github.com/user-attachments/assets/81e9e50a-0bf5-4f03-b58c-5ae4996d2686)
+
+Figure: Segmentation results on (a)-(b) ISIC-2018, (c)-(d) KVASIR, (e)-(f) CVC-ClinicDB sample images
+
+![image](https://github.com/user-attachments/assets/2a8d3757-ab44-40cc-aabe-f91c6ecccf82)
+
+Figure: Segmentation results on (a)-(b) ECSSD, (c)-(d) DUTS, (e)-(f) CUB sample images
+
+# Results
+![image](https://github.com/user-attachments/assets/da308c1e-bacb-40a5-ad07-0dc1c52e2415)
+
+
+
 # Acknowledgements
 We extend our heartfelt gratitude to the creators and contributors of [Deepcut](https://github.com/SAMPL-Weizmann/DeepCut) which laid the foundation for our code, which is licensed under the [MIT License](https://github.com/SAMPL-Weizmann/DeepCut/blob/main/LICENSE.txt).
