@@ -144,7 +144,8 @@ class BilateralSolver(object):
         yhat = np.empty_like(y0)
         for d in range(x.shape[-1]):
             yhat[..., d], info = cg(A, b[..., d], x0=y0[..., d], M=M, maxiter=self.params["cg_maxiter"],
-                                    tol=self.params["cg_tol"])
+                        rtol=self.params["cg_tol"])
+
         xhat = self.grid.slice(yhat)
         return xhat
 
