@@ -54,3 +54,17 @@ Place all the dirs/files extracted in this directory. Verify that these are pres
 ## ECSSD
 
 No manual loading required, directly loading from Deeplake library.
+
+
+## CUSTOM
+
+Within the datasets directory:
+```
+mkdir CUSTOM
+cd CUSTOM
+```
+Add the gtMasks and images to the CUSTOM directory.
+Then, at root directory:
+```
+python main.py --dataset CUSTOM
+```
